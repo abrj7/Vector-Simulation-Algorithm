@@ -1,5 +1,5 @@
 # Sun Analemma – Reflection Simulation
-Based on the following [research paper](https://drive.google.com/file/d/18Ge1nyZpSrt2elqEW2IscvNKPeJti0cU/view) authored by me.
+Based on the following [research paper](https://drive.google.com/file/d/18Ge1nyZpSrt2elqEW2IscvNKPeJti0cU/view).
 
 This repository contains a Python implementation of the **Sun Analemma reflection model**, which simulates how sunlight reflects off the **concave glass façade** of 20 Fenchurch Street (the “Walkie-Talkie”) at various times of day. The program uses the Sun’s azimuth and altitude angles to calculate where the incoming solar rays strike the building and how they reflect onto the ground.
 
@@ -224,5 +224,5 @@ Use this script to:
 ## Notes
 - Uses purely geometric optics (no atmospheric effects).
 - The building’s curvature parameters (0.0022, 6.22) were fitted from façade data.
-- Scaling factor: 1 unit = 4 m.
+- Scaling factor: 1 unit = 4 m (given in paper)
 - Adjust the coefficients if modeling other parabolic façades.
